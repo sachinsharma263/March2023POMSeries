@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="97024" started-at="2023-03-21T10:09:37Z" finished-at="2023-03-21T10:11:14Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="97024" started-at="2023-03-21T10:09:37Z" finished-at="2023-03-21T10:11:14Z">
+      <class name="com.qa.trcrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@153f5a29]" name="verifyLoginPageTitleTest" duration-ms="99" started-at="2023-03-21T10:10:44Z" finished-at="2023-03-21T10:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifySignUpNowLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@153f5a29]" name="verifySignUpNowLinkTest" duration-ms="180" started-at="2023-03-21T10:10:45Z" finished-at="2023-03-21T10:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpNowLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@153f5a29]" name="loginTest" duration-ms="24654" started-at="2023-03-21T10:10:45Z" finished-at="2023-03-21T10:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
+      <class name="com.qa.trcrm.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@26f67b76]" name="setUp" is-config="true" duration-ms="54790" started-at="2023-03-21T10:09:37Z" finished-at="2023-03-21T10:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@153f5a29]" name="setUp" is-config="true" duration-ms="11590" started-at="2023-03-21T10:10:32Z" finished-at="2023-03-21T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.trcrm.tests.HomePageTest@26f67b76]" name="verifyHomePageTitleTest" duration-ms="194" started-at="2023-03-21T10:10:44Z" finished-at="2023-03-21T10:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.trcrm.tests.HomePageTest@26f67b76]" name="verifyHomePageHeaderTest" duration-ms="660" started-at="2023-03-21T10:10:44Z" finished-at="2023-03-21T10:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.trcrm.tests.HomePageTest@26f67b76]" name="verifyLoggedInUserTest" duration-ms="84" started-at="2023-03-21T10:10:45Z" finished-at="2023-03-21T10:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@26f67b76]" name="tearDown" is-config="true" duration-ms="3472" started-at="2023-03-21T10:11:09Z" finished-at="2023-03-21T10:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@153f5a29]" name="tearDown" is-config="true" duration-ms="1154" started-at="2023-03-21T10:11:13Z" finished-at="2023-03-21T10:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app sanity suite]">
+  <test thread-count="5" name="sanity test(failed)">
+    <classes>
+      <class name="com.qa.trcrm.tests.LoginPageTest">
+        <methods>
+          <include name="login_InvalidTestCases" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- sanity test(failed) -->
+</suite> <!-- Failed suite [trcrm app sanity suite] -->
