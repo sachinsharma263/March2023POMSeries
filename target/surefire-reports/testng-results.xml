@@ -35,16 +35,16 @@
       <![CDATA[status 1]]>
     </line>
   </reporter-output>
-  <suite name="trcrm app-Regression suite" duration-ms="126327" started-at="2023-03-22T17:36:09Z" finished-at="2023-03-22T17:38:15Z">
+  <suite name="trcrm app-Regression suite" duration-ms="125647" started-at="2023-03-22T18:41:58Z" finished-at="2023-03-22T18:44:03Z">
     <groups>
     </groups>
-    <test name="Login Page Test" duration-ms="66257" started-at="2023-03-22T17:36:09Z" finished-at="2023-03-22T17:37:15Z">
+    <test name="Login Page Test" duration-ms="70187" started-at="2023-03-22T18:41:58Z" finished-at="2023-03-22T18:43:08Z">
       <class name="com.qa.trcrm.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="setUp" is-config="true" duration-ms="16476" started-at="2023-03-22T17:36:10Z" finished-at="2023-03-22T17:36:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="setUp" is-config="true" duration-ms="17933" started-at="2023-03-22T18:41:58Z" finished-at="2023-03-22T18:42:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="verifyLoginPageTitleTest" duration-ms="62" started-at="2023-03-22T17:36:27Z" description="verify Login Page Title is correct or not" finished-at="2023-03-22T17:36:27Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="verifyLoginPageTitleTest" duration-ms="51" started-at="2023-03-22T18:42:16Z" description="verify Login Page Title is correct or not" finished-at="2023-03-22T18:42:16Z">
           <reporter-output>
             <line>
               <![CDATA[Test cases verifyLoginPageTitleTest]]>
@@ -54,7 +54,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="FAIL" signature="verifySignUpNowLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="verifySignUpNowLinkTest" duration-ms="215" started-at="2023-03-22T17:36:27Z" description="verify SignUp Link is correct or not" finished-at="2023-03-22T17:36:27Z">
+        <test-method status="FAIL" signature="verifySignUpNowLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="verifySignUpNowLinkTest" duration-ms="187" started-at="2023-03-22T18:42:16Z" description="verify SignUp Link is correct or not" finished-at="2023-03-22T18:42:16Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -98,7 +98,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
             </line>
           </reporter-output>
         </test-method> <!-- verifySignUpNowLinkTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="loginTest" duration-ms="45524" started-at="2023-03-22T17:36:28Z" description="verify login feature" finished-at="2023-03-22T17:37:14Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="loginTest" duration-ms="48868" started-at="2023-03-22T18:42:18Z" description="verify login feature" finished-at="2023-03-22T18:43:07Z">
           <reporter-output>
             <line>
               <![CDATA[Test cases loginTest]]>
@@ -108,19 +108,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="tearDown" is-config="true" duration-ms="1532" started-at="2023-03-22T17:37:14Z" finished-at="2023-03-22T17:37:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@26794848]" name="tearDown" is-config="true" duration-ms="1159" started-at="2023-03-22T18:43:07Z" finished-at="2023-03-22T18:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test name="Home Page Test" duration-ms="57752" started-at="2023-03-22T17:37:18Z" finished-at="2023-03-22T17:38:15Z">
+    <test name="Home Page Test" duration-ms="54359" started-at="2023-03-22T18:43:09Z" finished-at="2023-03-22T18:44:03Z">
       <class name="com.qa.trcrm.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="setUp" is-config="true" duration-ms="43128" started-at="2023-03-22T17:37:18Z" finished-at="2023-03-22T17:38:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="setUp" is-config="true" duration-ms="44433" started-at="2023-03-22T18:43:09Z" finished-at="2023-03-22T18:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="verifyHomePageTitleTest" duration-ms="32" started-at="2023-03-22T17:38:01Z" finished-at="2023-03-22T17:38:01Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="verifyHomePageTitleTest" duration-ms="42" started-at="2023-03-22T18:43:53Z" finished-at="2023-03-22T18:43:53Z">
           <reporter-output>
             <line>
               <![CDATA[Test cases verifyHomePageTitleTest]]>
@@ -130,7 +130,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
             </line>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="verifyHomePageHeaderTest" duration-ms="4548" started-at="2023-03-22T17:38:01Z" finished-at="2023-03-22T17:38:05Z">
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="verifyHomePageHeaderTest" duration-ms="5481" started-at="2023-03-22T18:43:53Z" finished-at="2023-03-22T18:43:59Z">
           <reporter-output>
             <line>
               <![CDATA[Test cases verifyHomePageHeaderTest]]>
@@ -140,7 +140,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
             </line>
           </reporter-output>
         </test-method> <!-- verifyHomePageHeaderTest -->
-        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="verifyLoggedInUserTest" duration-ms="8656" started-at="2023-03-22T17:38:05Z" finished-at="2023-03-22T17:38:14Z">
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="verifyLoggedInUserTest" duration-ms="2698" started-at="2023-03-22T18:43:59Z" finished-at="2023-03-22T18:44:02Z">
           <reporter-output>
             <line>
               <![CDATA[Test cases verifyLoggedInUserTest]]>
@@ -150,7 +150,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="tearDown" is-config="true" duration-ms="1367" started-at="2023-03-22T17:38:14Z" finished-at="2023-03-22T17:38:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@247bddad]" name="tearDown" is-config="true" duration-ms="1687" started-at="2023-03-22T18:44:02Z" finished-at="2023-03-22T18:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

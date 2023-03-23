@@ -8,12 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">60,210</td><td></td><td></td></tr>
+<tr><th colspan="7">trcrm app-Regression suite</th></tr>
+<tr><td><a href="#t0">Login Page Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">60,702</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Home Page Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">81,696</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num attn">1</th><th class="num">142,398</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m0">verifySignUpNowLinkTest</a></td><td rowspan="1">1679469941538</td><td rowspan="1">180</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1679469941728</td><td rowspan="1">39460</td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginPageTitleTest</a></td><td rowspan="1">1679469941488</td><td rowspan="1">40</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">trcrm app-Regression suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Page Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m0">verifySignUpNowLinkTest</a></td><td rowspan="1">1679509710693</td><td rowspan="1">209</td></tr><tr><th colspan="4">Login Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.trcrm.tests.LoginPageTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1679509711510</td><td rowspan="1">38593</td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginPageTitleTest</a></td><td rowspan="1">1679509710537</td><td rowspan="1">88</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Home Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.trcrm.tests.HomePageTest</td><td><a href="#m3">verifyHomePageHeaderTest</a></td><td rowspan="1">1679509824387</td><td rowspan="1">6008</td></tr><tr class="passedeven"><td><a href="#m4">verifyHomePageTitleTest</a></td><td rowspan="1">1679509824340</td><td rowspan="1">42</td></tr><tr class="passedeven"><td><a href="#m5">verifyLoggedInUserTest</a></td><td rowspan="1">1679509830398</td><td rowspan="1">2833</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.qa.trcrm.tests.LoginPageTest#verifySignUpNowLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+<h2>Login Page Test</h2><h3 id="m0">com.qa.trcrm.tests.LoginPageTest#verifySignUpNowLinkTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test cases verifySignUpNowLinkTest</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
 	at com.qa.trcrm.utils.ElementUtil.doIsDisplayed(ElementUtil.java:47)
 	at com.qa.trcrm.pages.LoginPage.verifySignUpLink(LoginPage.java:36)
 	at com.qa.trcrm.tests.LoginPageTest.verifySignUpNowLinkTest(LoginPageTest.java:48)
@@ -43,7 +46,10 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.trcrm.tests.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.trcrm.tests.LoginPageTest#verifyLoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.trcrm.tests.LoginPageTest#loginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test cases loginTest<br/>status 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.trcrm.tests.LoginPageTest#verifyLoginPageTitleTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test cases verifyLoginPageTitleTest<br/>status 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Home Page Test</h2><h3 id="m3">com.qa.trcrm.tests.HomePageTest#verifyHomePageHeaderTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test cases verifyHomePageHeaderTest<br/>status 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.trcrm.tests.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test cases verifyHomePageTitleTest<br/>status 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.trcrm.tests.HomePageTest#verifyLoggedInUserTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test cases verifyLoggedInUserTest<br/>status 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
