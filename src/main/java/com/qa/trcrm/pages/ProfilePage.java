@@ -11,4 +11,8 @@ public class ProfilePage extends BasePage {
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
 	}
+	public void m1() {
+		System.out.println("m1");
+	}
+
 }
