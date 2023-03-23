@@ -1,21 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="4" passed="2">
+<testng-results skipped="0" failed="1" ignored="1" total="7" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[Test cases verifyLoginPageTitleTest]]>
+    </line>
+    <line>
+      <![CDATA[status 1]]>
+    </line>
+    <line>
+      <![CDATA[Test cases verifySignUpNowLinkTest]]>
+    </line>
+    <line>
+      <![CDATA[Test cases loginTest]]>
+    </line>
+    <line>
+      <![CDATA[status 1]]>
+    </line>
+    <line>
+      <![CDATA[Test cases verifyHomePageTitleTest]]>
+    </line>
+    <line>
+      <![CDATA[status 1]]>
+    </line>
+    <line>
+      <![CDATA[Test cases verifyHomePageHeaderTest]]>
+    </line>
+    <line>
+      <![CDATA[status 1]]>
+    </line>
+    <line>
+      <![CDATA[Test cases verifyLoggedInUserTest]]>
+    </line>
+    <line>
+      <![CDATA[status 1]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60210" started-at="2023-03-22T07:25:22Z" finished-at="2023-03-22T07:26:23Z">
+  <suite name="trcrm app-Regression suite" duration-ms="143983" started-at="2023-03-22T18:28:10Z" finished-at="2023-03-22T18:30:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60210" started-at="2023-03-22T07:25:22Z" finished-at="2023-03-22T07:26:23Z">
+    <test name="Login Page Test" duration-ms="60702" started-at="2023-03-22T18:28:10Z" finished-at="2023-03-22T18:29:11Z">
       <class name="com.qa.trcrm.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@19d37183]" name="setUp" is-config="true" duration-ms="18491" started-at="2023-03-22T07:25:22Z" finished-at="2023-03-22T07:25:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@37f1104d]" name="setUp" is-config="true" duration-ms="18119" started-at="2023-03-22T18:28:12Z" finished-at="2023-03-22T18:28:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@19d37183]" name="verifyLoginPageTitleTest" duration-ms="40" started-at="2023-03-22T07:25:41Z" description="verify Login Page Title is correct or not" finished-at="2023-03-22T07:25:41Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.trcrm.tests.LoginPageTest@37f1104d]" name="verifyLoginPageTitleTest" duration-ms="88" started-at="2023-03-22T18:28:30Z" description="verify Login Page Title is correct or not" finished-at="2023-03-22T18:28:30Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test cases verifyLoginPageTitleTest]]>
+            </line>
+            <line>
+              <![CDATA[status 1]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="FAIL" signature="verifySignUpNowLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@19d37183]" name="verifySignUpNowLinkTest" duration-ms="180" started-at="2023-03-22T07:25:41Z" description="verify SignUp Link is correct or not" finished-at="2023-03-22T07:25:41Z">
+        <test-method status="FAIL" signature="verifySignUpNowLinkTest()[pri:2, instance:com.qa.trcrm.tests.LoginPageTest@37f1104d]" name="verifySignUpNowLinkTest" duration-ms="209" started-at="2023-03-22T18:28:30Z" description="verify SignUp Link is correct or not" finished-at="2023-03-22T18:28:30Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -51,17 +90,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
+            <line>
+              <![CDATA[Test cases verifySignUpNowLinkTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifySignUpNowLinkTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@19d37183]" name="loginTest" duration-ms="39460" started-at="2023-03-22T07:25:41Z" description="verify login feature" finished-at="2023-03-22T07:26:21Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.trcrm.tests.LoginPageTest@37f1104d]" name="loginTest" duration-ms="38593" started-at="2023-03-22T18:28:31Z" description="verify login feature" finished-at="2023-03-22T18:29:10Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test cases loginTest]]>
+            </line>
+            <line>
+              <![CDATA[status 1]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@19d37183]" name="tearDown" is-config="true" duration-ms="1972" started-at="2023-03-22T07:26:21Z" finished-at="2023-03-22T07:26:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.LoginPageTest@37f1104d]" name="tearDown" is-config="true" duration-ms="1386" started-at="2023-03-22T18:29:10Z" finished-at="2023-03-22T18:29:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login Page Test -->
+    <test name="Home Page Test" duration-ms="81696" started-at="2023-03-22T18:29:13Z" finished-at="2023-03-22T18:30:34Z">
+      <class name="com.qa.trcrm.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@46fa7c39]" name="setUp" is-config="true" duration-ms="71246" started-at="2023-03-22T18:29:13Z" finished-at="2023-03-22T18:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.trcrm.tests.HomePageTest@46fa7c39]" name="verifyHomePageTitleTest" duration-ms="42" started-at="2023-03-22T18:30:24Z" finished-at="2023-03-22T18:30:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test cases verifyHomePageTitleTest]]>
+            </line>
+            <line>
+              <![CDATA[status 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.trcrm.tests.HomePageTest@46fa7c39]" name="verifyHomePageHeaderTest" duration-ms="6008" started-at="2023-03-22T18:30:24Z" finished-at="2023-03-22T18:30:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test cases verifyHomePageHeaderTest]]>
+            </line>
+            <line>
+              <![CDATA[status 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:3, instance:com.qa.trcrm.tests.HomePageTest@46fa7c39]" name="verifyLoggedInUserTest" duration-ms="2833" started-at="2023-03-22T18:30:30Z" finished-at="2023-03-22T18:30:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test cases verifyLoggedInUserTest]]>
+            </line>
+            <line>
+              <![CDATA[status 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.HomePageTest@46fa7c39]" name="tearDown" is-config="true" duration-ms="1543" started-at="2023-03-22T18:30:33Z" finished-at="2023-03-22T18:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.HomePageTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- trcrm app-Regression suite -->
 </testng-results>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app-Regression suite]">
+  <listeners>
+    <listener class-name="com.qa.trcrm.listeners.pdfListener"/>
+    <listener class-name="com.qa.trcrm.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Login Page Test(failed)">
     <classes>
       <class name="com.qa.trcrm.tests.LoginPageTest">
         <methods>
@@ -11,5 +15,5 @@
         </methods>
       </class> <!-- com.qa.trcrm.tests.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [trcrm app-Regression suite] -->
