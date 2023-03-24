@@ -13,4 +13,9 @@ public class AppConstants {
 	public static final String CONTACTS_PAGE_HEADER = "Contacts";
 	public static final String CONTACTS_PERSON_ADDED = "Person added.";
 	
+	public static final String TEST_SHEET_DATA="./src/main/java/com/qa/trcrm/testdata/TestData.xlsx";
+	public static final String CONTACTS_SHEET_NAME = "contacts"; 
+	
+	
+	
 }
