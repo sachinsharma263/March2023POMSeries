@@ -12,6 +12,8 @@ public class HomePage extends BasePage {
 
 	By homePage = By.xpath("//span[text()='Homepage']");
 	By loggedInUser = By.xpath("//span[text()=' sachin sharma']");
+	
+	By contactsLink=By.xpath("//li[@id='contactMenuLi']/a");
 
 	WebDriver driver;
 	ElementUtil util;
@@ -36,5 +38,10 @@ public class HomePage extends BasePage {
 
 	public String verifyLoggedInUser() {
 		return util.doGetText(loggedInUser);
+	}
+	public ContactsPage goToContactsPage() {
+		util.waitForPresenceOfElementLocated(contactsLink);
+		jsUtil.clickElementByJS(util.getElement(contactsLink));
+		return new ContactsPage(driver);
 	}
 }

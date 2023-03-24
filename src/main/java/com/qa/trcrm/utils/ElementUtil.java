@@ -25,7 +25,7 @@ public class ElementUtil {
 		WebElement element = null;
 		try {
 			element = driver.findElement(locator);
-			jsUtil.flash(element);
+			//jsUtil.flash(element);
 			return element;
 		} catch (Exception e) {
 			System.out.println("some exception occured while creating the web element: " + locator);
