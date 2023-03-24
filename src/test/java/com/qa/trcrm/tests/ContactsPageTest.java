@@ -14,6 +14,7 @@ import com.qa.trcrm.pages.ContactsPage;
 import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.utils.AppConstants;
+import com.qa.trcrm.utils.ExcelUtil;
 
 public class ContactsPageTest {
 
@@ -43,13 +44,13 @@ public class ContactsPageTest {
 
 	@Test(priority = 2, dataProvider = "getTestdata")
 	public void verifyAddPersonTest(String name, String email) {
-		String personAddedMsg  = contactsPage.addPerson(name, email);
+		String personAddedMsg = contactsPage.addPerson(name, email);
 		Assert.assertEquals(personAddedMsg, AppConstants.CONTACTS_PERSON_ADDED);
 	}
 
 	@DataProvider
 	public Object[][] getTestdata() {
-		Object data[][] = { { "bhawna", "b@gmail.com" }, { "naveen", "n@gmail.com" } };
+		Object data[][]=ExcelUtil.getTestData(AppConstants.CONTACTS_SHEET_NAME);
 
 		return data;
 	}
