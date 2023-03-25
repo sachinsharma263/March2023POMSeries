@@ -3,6 +3,7 @@ package com.qa.trcrm.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.qa.trcrm.pojo.Contacts;
 import com.qa.trcrm.utils.AppConstants;
 import com.qa.trcrm.utils.ElementUtil;
 
@@ -38,6 +39,19 @@ public class ContactsPage {
 		util.doSendKeys(name, firstName);
 		util.doSendKeys(email, emailId);
 		
+		util.doClick(saveButton);
+		
+		util.waitForPresenceOfElementLocated(personAddedMsg);
+		
+		return util.doGetText(personAddedMsg);
+	}
+	public String addPerson(Contacts contacts)
+	{
+		util.waitForPresenceOfElementLocated(addPersonButton);
+		util.doClick(addPersonButton);
+util.waitForPresenceOfElementLocated(name);
+		util.doSendKeys(name, contacts.getName());
+		util.doSendKeys(email, contacts.getEmailId());
 		util.doClick(saveButton);
 		
 		util.waitForPresenceOfElementLocated(personAddedMsg);

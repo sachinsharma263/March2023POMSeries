@@ -13,6 +13,8 @@ import com.qa.trcrm.base.BasePage;
 import com.qa.trcrm.pages.ContactsPage;
 import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
+import com.qa.trcrm.pojo.Contacts;
+import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.AppConstants;
 import com.qa.trcrm.utils.ExcelUtil;
 
@@ -24,6 +26,8 @@ public class ContactsPageTest {
 	LoginPage loginPage;
 	HomePage homePage;
 	ContactsPage contactsPage;
+	Credentials credentials;
+	Contacts contacts;
 
 	@BeforeMethod
 	public void setUp() {
@@ -31,7 +35,8 @@ public class ContactsPageTest {
 		prop = basePage.init_prop();
 		driver = basePage.init_driver(prop);
 		loginPage = new LoginPage(driver);
-		homePage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
+		credentials=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		homePage = loginPage.doLogin(credentials);
 		contactsPage = homePage.goToContactsPage();
 
 	}
@@ -44,7 +49,8 @@ public class ContactsPageTest {
 
 	@Test(priority = 2, dataProvider = "getTestdata")
 	public void verifyAddPersonTest(String name, String email) {
-		String personAddedMsg = contactsPage.addPerson(name, email);
+		contacts=new Contacts(name,email);
+		String personAddedMsg = contactsPage.addPerson(contacts);
 		Assert.assertEquals(personAddedMsg, AppConstants.CONTACTS_PERSON_ADDED);
 	}
 
