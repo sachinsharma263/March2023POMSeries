@@ -32,7 +32,7 @@ public class LoginPageTest {
 	@BeforeTest
 	public void setUp() {
 		basePage = new BasePage();
-		Log.info("base page laucnhed");
+		Log.info("base page launched");
 		prop = basePage.init_prop();
 		Log.error("prop init");
 		driver = basePage.init_driver(prop);
