@@ -36,7 +36,7 @@ public class LoginPageTest {
 		prop = basePage.init_prop();
 		Log.error("prop init");
 		driver = basePage.init_driver(prop);
-		Log.debug("driver laucnhed");
+		Log.debug("driver launched");
 		loginPage = new LoginPage(driver);
 		credential=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
 
