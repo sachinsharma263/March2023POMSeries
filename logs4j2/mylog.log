@@ -1,0 +1,40 @@
+[INFO ] 2023-03-29 23:12:31.843 [main] Log - Login Page Test Test started!
+[INFO ] 2023-03-29 23:12:31.869 [main] Log - base page laucnhed
+[ERROR] 2023-03-29 23:12:31.872 [main] Log - prop init
+[DEBUG] 2023-03-29 23:12:48.978 [main] Log - driver laucnhed
+[INFO ] 2023-03-29 23:12:49.340 [main] Log - starting test case: verifyLoginPageTitleTest starting
+[INFO ] 2023-03-29 23:12:49.341 [main] Log - verify Login Page Title is correct or not
+[INFO ] 2023-03-29 23:12:49.341 [main] Log - getting Login page title
+[INFO ] 2023-03-29 23:12:49.357 [main] Log - Login page title is: CRM Login CRM | Customer Relationship Management TRCRM
+[INFO ] 2023-03-29 23:12:49.376 [main] Log - test case: verifyLoginPageTitleTest passed!
+[INFO ] 2023-03-29 23:12:49.387 [main] Log - starting test case: verifySignUpNowLinkTest starting
+[INFO ] 2023-03-29 23:12:49.387 [main] Log - verify SignUp Link is correct or not
+[INFO ] 2023-03-29 23:12:50.122 [main] Log - Logging bug in jira
+[INFO ] 2023-03-29 23:12:53.141 [main] Log - new issue created in jira with ID: MCRPROJ-160
+[ERROR] 2023-03-29 23:12:53.142 [main] Log - test case: verifySignUpNowLinkTest failed!
+[INFO ] 2023-03-29 23:12:53.145 [main] Log - starting test case: loginTest starting
+[INFO ] 2023-03-29 23:12:53.149 [main] Log - verify login feature
+[INFO ] 2023-03-29 23:13:08.016 [main] Log - test case: loginTest passed!
+[INFO ] 2023-03-29 23:13:10.731 [main] Log - Login Page Test Test ended!
+[INFO ] 2023-03-29 23:13:10.734 [main] Log - Home Page Test Test started!
+[INFO ] 2023-03-29 23:13:33.788 [main] Log - starting test case: verifyHomePageTitleTest starting
+[INFO ] 2023-03-29 23:13:33.789 [main] Log - null
+[INFO ] 2023-03-29 23:13:33.870 [main] Log - test case: verifyHomePageTitleTest passed!
+[INFO ] 2023-03-29 23:13:33.875 [main] Log - starting test case: verifyHomePageHeaderTest starting
+[INFO ] 2023-03-29 23:13:33.876 [main] Log - null
+[INFO ] 2023-03-29 23:13:34.095 [main] Log - test case: verifyHomePageHeaderTest passed!
+[INFO ] 2023-03-29 23:13:34.098 [main] Log - starting test case: verifyLoggedInUserTest starting
+[INFO ] 2023-03-29 23:13:34.098 [main] Log - null
+[INFO ] 2023-03-29 23:13:34.197 [main] Log - test case: verifyLoggedInUserTest passed!
+[INFO ] 2023-03-29 23:13:35.912 [main] Log - Home Page Test Test ended!
+[INFO ] 2023-03-29 23:13:35.913 [main] Log - Contacts page Test Test started!
+[INFO ] 2023-03-29 23:14:01.079 [main] Log - starting test case: verifyContactsPageTitleTest starting
+[INFO ] 2023-03-29 23:14:01.079 [main] Log - null
+[INFO ] 2023-03-29 23:14:01.116 [main] Log - test case: verifyContactsPageTitleTest passed!
+[INFO ] 2023-03-29 23:14:29.963 [main] Log - starting test case: verifyAddPersonTest starting
+[INFO ] 2023-03-29 23:14:29.964 [main] Log - null
+[INFO ] 2023-03-29 23:14:46.569 [main] Log - test case: verifyAddPersonTest passed!
+[INFO ] 2023-03-29 23:15:10.411 [main] Log - starting test case: verifyAddPersonTest starting
+[INFO ] 2023-03-29 23:15:10.412 [main] Log - null
+[INFO ] 2023-03-29 23:15:28.028 [main] Log - test case: verifyAddPersonTest passed!
+[INFO ] 2023-03-29 23:15:29.648 [main] Log - Contacts page Test Test ended!
