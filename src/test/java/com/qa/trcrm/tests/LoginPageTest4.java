@@ -20,7 +20,7 @@ import com.qa.trcrm.utils.AppConstants;
 import com.qa.trcrm.utils.JiraPolicy;
 import com.qa.trcrm.utils.Log;
 
-public class LoginPageTest {
+public class LoginPageTest4 {
 
 	BasePage basePage;
 	Properties prop;
@@ -38,14 +38,11 @@ public class LoginPageTest {
 		driver = basePage.init_driver(prop);
 		Log.debug("driver launched");
 		loginPage = new LoginPage(driver);
-		if (System.getProperty("email") != null && System.getProperty("pass") != null) {
-			credential = new Credentials(System.getProperty("email"), System.getProperty("pass"));
-		} else {
-			credential = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
-		}
+		credential=new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+
 	}
 
-	@Test(priority = 1, enabled = true, description = "verify Login Page Title is correct or not")
+	@Test(priority = 1, enabled = true,description = "verify Login Page Title is correct or not")
 	public void verifyLoginPageTitleTest() {
 		Log.info("getting Login page title");
 		String title = loginPage.getLoginPageTitle();
