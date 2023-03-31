@@ -38,10 +38,15 @@ public class LoginPageTest {
 		driver = basePage.init_driver(prop);
 		Log.debug("driver launched");
 		loginPage = new LoginPage(driver);
-		if (System.getProperty("email") != null && System.getProperty("pass") != null) {
-			credential = new Credentials(System.getProperty("email"), System.getProperty("pass"));
-		} else {
+
+		if (System.getProperty("email").isEmpty() && System.getProperty("pass").isEmpty()) {
 			credential = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		}
+		else if (System.getProperty("email") == null && System.getProperty("pass") == null) {
+			credential = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
+		} else {
+
+			credential = new Credentials(System.getProperty("email"), System.getProperty("pass"));
 		}
 	}
 
