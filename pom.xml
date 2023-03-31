@@ -166,12 +166,9 @@
 					<configuration>
 
 						<systemPropertyVariables>
-						
-							
-							<email>${Demail}</email>
+						<email>${Demail}</email>
 							<pass>${Dpass}</pass>
-
-						
+							
 
 						</systemPropertyVariables>
 						<suiteXmlFiles>
